@@ -3,7 +3,7 @@ import { IFrameHelper } from './IFrameHelper';
 import { isExpandedView } from './settingsHelper';
 
 export const bubbleSVG =
-  'M211.2.1H28.8c-5.4,0-9.9,4.4-9.9,9.8v181.9c0,5.4,4.4,9.8,9.9,9.8h89.2s18.6,19,31.3,30c5.2,4.5,10.9,7.8,14,7.8s7.3-2.4,7.6-9.4c.5-15.2.6-28.4.6-28.4h39.6c5.4,0,9.9-4.4,9.9-9.8V9.9c0-5.4-4.4-9.8-9.9-9.8ZM178.1,123.6c-.4,2.7-2,5.1-4.2,6.6-15.2,13.2-34.4,20.7-54.6,21.4-20.1-.7-39.4-8.3-54.6-21.5-2.4-2.2-3.5-5.5-2.9-8.7.6-3.2,2.7-5.9,5.7-7.2,3-1.3,6.5-1,9.2.8,29,23.1,55.9,23.1,85,0h0c2-1.8,4.6-2.7,7.4-2.5,2.7.2,5.2,1.5,6.9,3.6,1.7,2.1,2.4,4.9,2,7.5Z';
+  'M46.5,15.9h-29c-.9,0-1.6.7-1.6,1.6v28.9c0,.9.7,1.6,1.6,1.6h14.2s3,3,5,4.8c.8.7,1.7,1.2,2.2,1.2s1.2-.4,1.2-1.5c0-2.4,0-4.5,0-4.5h6.3c.9,0,1.6-.7,1.6-1.6v-28.9c0-.9-.7-1.6-1.6-1.6h0ZM41.2,35.5c0,.4-.3.8-.7,1-2.4,2.1-5.5,3.3-8.7,3.4-3.2-.1-6.3-1.3-8.7-3.4-.4-.3-.6-.9-.5-1.4s.4-.9.9-1.1c.5-.2,1-.2,1.5.1,4.6,3.7,8.9,3.7,13.5,0h0c.3-.3.7-.4,1.2-.4.';
 
 export const body = document.getElementsByTagName('body')[0];
 export const widgetHolder = document.createElement('div');
@@ -27,8 +27,8 @@ export const createBubbleIcon = ({ className, path, target }) => {
     'svg'
   );
   bubbleIcon.setAttributeNS(null, 'id', 'woot-widget-bubble-icon');
-  bubbleIcon.setAttributeNS(null, 'width', '32');
-  bubbleIcon.setAttributeNS(null, 'height', '32');
+  bubbleIcon.setAttributeNS(null, 'width', '64');
+  bubbleIcon.setAttributeNS(null, 'height', '64');
   bubbleIcon.setAttributeNS(null, 'viewBox', '0 0 240 240');
   bubbleIcon.setAttributeNS(null, 'fill', 'none');
   bubbleIcon.setAttribute('xmlns', 'http://www.w3.org/2000/svg');

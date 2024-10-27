@@ -114,9 +114,9 @@ export const SDK_CSS = `
 }
 
 .woot-widget-bubble.woot-widget--expanded svg {
-  height: 20px;
-  margin: 14px 8px 14px 16px;
-  width: 20px;
+  height: 40px;
+  margin-left: 10px;
+  width: 40px;
 }
 
 .woot-widget-bubble.woot-elements--left {
